@@ -1,146 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ian Mitchell King, Los Angeles – Inspiring Community and Growth</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ian Mitchell King, Los Angeles — Inspiring Community & Growth</title>
+  <meta name="description" content="Discover the inspiring story of Ian Mitchell King, Los Angeles — a leader in art, real estate, community building, wellness, and dispute resolution.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {margin:0; padding:0; box-sizing:border-box;}
-    body {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      line-height: 1.7;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(to right, #3949ab, #5c6bc0);
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    main {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #fff;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      border-radius: 8px;
-    }
-    section {
-      padding: 40px 30px;
-      border-bottom: 1px solid #eee;
-    }
-    section:last-child {
-      border-bottom: none;
-    }
-    h2 {
-      font-size: 2rem;
-      color: #3949ab;
-      margin-bottom: 20px;
-    }
-    p {
-      margin-bottom: 18px;
-      font-size: 1.05rem;
-    }
-    a {
-      color: #3949ab;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
-      background: #f1f1f1;
-    }
-    @media (max-width: 768px) {
-      header h1 {font-size: 2rem;}
-      main {margin:20px;}
-      section {padding: 25px 20px;}
-    }
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#ff6b6b;--glass: rgba(255,255,255,0.04)}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;color: #e6eef8;background: linear-gradient(180deg,#071029 0%, #071b2b 60%);}
+    .container{max-width:1100px;margin:48px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter: blur(4px);border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    header{display:flex;align-items:center;gap:18px;margin-bottom:18px}
+    .logo{width:68px;height:68px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),#ff9a9a);color:white;font-weight:700;font-family:Playfair Display,serif;font-size:20px}
+    h1{font-family:Playfair Display,serif;margin:0;font-size:28px;color:#fff}
+    .sub{color:var(--muted);margin-top:6px}
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:20px}
+    .card{background:var(--card);padding:22px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .lead{font-size:16px;color:#d9e6f6;line-height:1.7}
+    .author-link{color:var(--accent);font-weight:600;text-decoration:none}
+    nav.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .chip{background:var(--glass);padding:8px 12px;border-radius:999px;color:var(--muted);font-size:13px;border:1px solid rgba(255,255,255,0.02)}
+    article{margin-top:18px}
+    h2{font-family:Playfair Display,serif;color:#fff;margin:22px 0 12px;font-size:20px}
+    p{color:#cfe3f8;line-height:1.7;margin:10px 0}
+    ul{color:#cfe3f8;margin:10px 0 20px 20px}
+    .events{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .event{background:linear-gradient(180deg,rgba(255,255,255,0.01),rgba(255,255,255,0.015));padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.02)}
+    footer{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.02);display:flex;justify-content:space-between;align-items:center}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:linear-gradient(90deg,var(--accent),#ff9a9a);color:#041022;text-decoration:none;font-weight:700}
+    .small{font-size:13px;color:var(--muted)}
+    @media (max-width:880px){.hero{grid-template-columns:1fr}header{gap:12px}.logo{width:56px;height:56px;font-size:18px}}
   </style>
 </head>
 <body>
+  <main class="container" role="main">
+    <header>
+      <div class="logo">IK</div>
+      <div>
+        <h1>Ian Mitchell King, Los Angeles — Inspiring Community & Growth</h1>
+        <div class="sub">A visionary journey in art, real estate, wellness, and community leadership shaping the heart of Los Angeles.</div>
+        <nav class="meta" aria-label="Article metadata">
+          <div class="chip">Los Angeles</div>
+          <div class="chip">Community & Leadership</div>
+          <div class="chip">Art & Real Estate</div>
+        </nav>
+      </div>
+    </header>
 
-<header>
-  <h1>Ian Mitchell King, Los Angeles – A Journey of Community and Growth</h1>
-  <p>Discover the inspiring journey of <a href="https://www.iankinglosangeles.info/" target="_blank">Ian Mitchell King, Los Angeles</a>, a leader whose dedication to community, real estate development, and personal growth has left a meaningful impact across the city.</p>
-</header>
+    <section class="hero">
+      <div class="card">
+        <p class="lead"><a class="author-link" href="https://www.iankinglosangeles.info/" title="Ian Mitchell King, Los Angeles">Ian Mitchell King, Los Angeles</a> is a dedicated leader whose passion for art, community-building, real estate, and human connection has inspired countless residents. His work reflects a commitment to fostering creativity, empathy, and inclusivity across Los Angeles’ diverse neighborhoods.</p>
 
-<main>
+        <article>
+          <h2>Introduction: A Visionary Leader in Los Angeles</h2>
+          <p>In a city as vibrant as Los Angeles, few individuals embody the spirit of connection and progress like Ian. His journey reveals how one person’s dedication to service and innovation can inspire entire communities to collaborate, grow, and thrive together.</p>
 
-  <section>
-    <h2>Introduction: A Visionary in the Heart of Los Angeles</h2>
-    <p>Los Angeles, renowned for its cultural diversity, thriving creative industries, and vibrant neighborhoods, has always been a city of innovation and ambition. Among its many inspiring figures, <a href="https://www.iankinglosangeles.info/" target="_blank">Ian Mitchell King, Los Angeles</a>, stands out as a passionate advocate for community development and meaningful change. His story reflects a dedication to leadership, philanthropy, and personal growth that resonates deeply with the spirit of LA.</p>
-    <p>Through years of service, commitment to education, and engagement with local initiatives, Ian has built a reputation as a bridge-builder—someone who not only understands the needs of diverse communities but also works tirelessly to address them. His journey illustrates how one individual’s vision can help shape a better future for a bustling metropolis.</p>
-  </section>
+          <h2>Early Life and Values that Inspire</h2>
+          <p>Ian’s roots are grounded in principles of integrity, empathy, and collaboration. These values have shaped his professional and personal approach, allowing him to bridge divides and bring together people from all walks of life in Los Angeles.</p>
 
-  <section>
-    <h2>Early Life and Connection to Community</h2>
-    <p>Ian’s story begins with a strong foundation in values such as integrity, hard work, and empathy—qualities that continue to guide his efforts in Los Angeles today. Growing up with an appreciation for teamwork and responsibility, he developed a keen sense of how communities thrive when people come together for a common purpose.</p>
-    <p>This early understanding shaped his later pursuits in leadership and civic engagement. As he immersed himself in diverse educational and professional experiences, Ian consistently sought ways to give back to the neighborhoods that shaped him, laying the groundwork for his ongoing impact on Los Angeles residents.</p>
-  </section>
+          <h2>Championing the Arts and Culture</h2>
+          <p>Art has long been a cornerstone of Ian’s vision. Through the Ian King Los Angeles Art Collective, he has helped create spaces where local artists showcase their work and residents experience the transformative power of creativity. Community art walks, vibrant murals, and public workshops have become defining features of this initiative.</p>
 
-  <section>
-    <h2>Leadership in Los Angeles: Building Bridges</h2>
-    <p>In a city as vast and multifaceted as Los Angeles, true leadership requires more than ambition—it calls for the ability to listen, collaborate, and inspire. Ian has exemplified these traits through his work with local organizations and his commitment to initiatives that bring together people from all walks of life.</p>
-    <p>By participating in community outreach programs and supporting grassroots projects, Ian has demonstrated how effective leadership means meeting people where they are. His efforts to create opportunities for dialogue and connection have helped build bridges between different communities across Los Angeles, fostering trust and collaboration in a diverse urban landscape.</p>
-  </section>
+          <h2>Real Estate with Purpose</h2>
+          <p>As a real estate investor, Ian views properties not merely as transactions but as opportunities to improve communities. His portfolio stretches across Studio City, Beverly Hills, Silver Lake, and Santa Monica, highlighting his focus on sustainable, people-centered development that strengthens neighborhoods.</p>
 
-  <section>
-    <h2>Contributions to Real Estate Development</h2>
-    <p>Beyond community work, Ian has made significant strides in real estate development—an area crucial to the growth and sustainability of Los Angeles. His approach prioritizes creating spaces that serve residents’ needs, support small businesses, and reflect the cultural richness of the city.</p>
-    <p>Through strategic investments and a focus on ethical development practices, Ian has contributed to the revitalization of several neighborhoods. By emphasizing quality, accessibility, and community benefit, he continues to play a role in shaping Los Angeles as a city where innovation meets inclusivity.</p>
-  </section>
+          <h2>Fostering Joy and Healing</h2>
+          <p>Recognizing the importance of emotional well-being, Ian founded <em>Laughing 4 Love</em> during the pandemic to bring people together through shared laughter and joy. From laughter yoga sessions in Griffith Park to uplifting comedy nights, these events help bridge divides and promote healing.</p>
 
-  <section>
-    <h2>Philanthropy and Volunteer Initiatives</h2>
-    <p>Ian’s dedication extends far beyond professional achievements. Over the years, he has actively supported philanthropic initiatives focused on education, youth mentorship, and services for underserved communities. His volunteer efforts reflect a deep belief in giving back and nurturing the next generation of leaders in Los Angeles.</p>
-    <p>These initiatives not only provide immediate support to those in need but also contribute to building a stronger, more resilient city. Ian’s work in this arena demonstrates his understanding that meaningful change often begins with small acts of service and sustained commitment to helping others succeed.</p>
-  </section>
+          <h2>Reconnecting Communities</h2>
+          <p>Ian also created the <em>Los Angeles Life Connection</em> to counter post-pandemic social isolation. Hosting monthly mixers, cultural excursions, and wellness workshops, the initiative helps people rediscover meaningful in-person connections.</p>
 
-  <section>
-    <h2>Passion for Art and Cultural Enrichment</h2>
-    <p>Los Angeles is a global hub for arts and culture, and Ian’s appreciation for this creative energy has fueled his involvement in projects that celebrate and preserve the city’s rich artistic heritage. He believes that art is a powerful tool for bringing people together and sparking dialogue about shared values and aspirations.</p>
-    <p>From supporting local art events to advocating for programs that empower young artists, Ian has consistently highlighted the importance of culture as a unifying force in a diverse city like Los Angeles.</p>
-  </section>
+          <h2>Integrating Spiritual Wellness</h2>
+          <p>Mindfulness and spirituality are central to Ian’s personal philosophy. Through meditation retreats, wellness discussions, and mindful leadership practices, he encourages others to cultivate balance and resilience in their daily lives.</p>
 
-  <section>
-    <h2>Mentorship and Personal Growth</h2>
-    <p>One of the hallmarks of Ian’s journey is his dedication to mentorship. Recognizing the transformative power of guidance and education, he has made it a priority to invest time in helping aspiring professionals develop their skills and confidence. His mentorship approach emphasizes resilience, adaptability, and ethical decision-making—qualities essential for navigating the complexities of modern life in a global city.</p>
-    <p>Through workshops, speaking engagements, and one-on-one guidance, Ian continues to inspire countless individuals to pursue their goals with determination and integrity.</p>
-  </section>
+          <h2>Legal Expertise and Conflict Resolution</h2>
+          <p>As a non-practicing attorney specializing in mediation, Ian brings compassion and practicality to conflict resolution. His work helps neighbors, businesses, and communities resolve disputes in ways that prioritize understanding and cooperation.</p>
 
-  <section>
-    <h2>Looking Toward the Future</h2>
-    <p>As Los Angeles faces evolving challenges and opportunities—from urban development to climate resilience and social equity—leaders like Ian remain essential to guiding progress. His ongoing commitment to empowering communities, fostering inclusive dialogue, and supporting sustainable development offers a hopeful vision for the future of the city.</p>
-    <p>By continuing to engage with residents, invest in thoughtful projects, and champion causes that strengthen local communities, Ian exemplifies the kind of forward-thinking leadership that can help Los Angeles thrive for generations to come.</p>
-  </section>
+          <h2>Mentorship and Personal Growth</h2>
+          <p>Through mentorship programs and educational events, Ian shares his knowledge with young professionals and aspiring leaders. His focus on empathy, ethical decision-making, and perseverance has made him a sought-after mentor and role model.</p>
 
-  <section>
-    <h2>Conclusion: A Lasting Legacy in Los Angeles</h2>
-    <p>The story of <a href="https://www.iankinglosangeles.info/" target="_blank">Ian Mitchell King, Los Angeles</a>, is ultimately one of dedication, empathy, and transformative leadership. Through his work in community building, real estate, philanthropy, and mentorship, Ian has demonstrated that meaningful change begins with a willingness to listen, learn, and act with purpose.</p>
-    <p>For residents and visitors alike, his journey serves as a reminder that a city’s true strength lies in its people—and that each individual has the potential to contribute to a brighter, more connected future.</p>
-  </section>
+          <h2>Art, Community, and Future Vision</h2>
+          <p>By uniting art, community-building, real estate, and wellness, Ian exemplifies the transformative power of holistic leadership. His initiatives highlight that cities thrive when creativity and compassion intersect.</p>
 
-</main>
+          <h2>Conclusion: Building a Better Los Angeles</h2>
+          <p>The journey of <a class="author-link" href="https://www.iankinglosangeles.info/" target="_blank">Ian Mitchell King, Los Angeles</a> showcases the profound impact of inclusive leadership. His efforts continue to shape a city where individuals feel empowered to connect, collaborate, and contribute to a brighter, more united future.</p>
+        </article>
 
-<footer>
-  &copy; 2025 Ian Mitchell King in Los Angeles – Inspiring Leadership and Growth
-</footer>
+        <footer>
+          <div class="small">© <strong>Ian Mitchell King</strong> — Los Angeles Community Leader</div>
+          <a class="btn" href="https://www.iankinglosangeles.info/">Visit Official Site</a>
+        </footer>
+      </div>
 
+      <aside class="card">
+        <h3 style="margin-top:0;font-family:Playfair Display,serif;color:#fff">Quick Links & Events</h3>
+        <div class="events">
+          <div class="event"><strong>Community Art Walks</strong><div class="small">Public tours & murals</div></div>
+          <div class="event"><strong>Wellness Retreats</strong><div class="small">Mindfulness & meditation</div></div>
+          <div class="event"><strong>Laughing 4 Love</strong><div class="small">Joyful healing programs</div></div>
+          <div class="event"><strong>Life Connection Mixers</strong><div class="small">Bringing neighbors together</div></div>
+        </div>
+
+        <h3 style="margin-top:18px;font-family:Playfair Display,serif;color:#fff">Connect & Learn More</h3>
+        <p class="small">Follow Ian’s ongoing initiatives and upcoming events. Join his mission to strengthen communities across Los Angeles.</p>
+        <p style="margin-top:10px"><a class="btn" href="https://www.iankinglosangeles.info/">Explore More</a></p>
+      </aside>
+    </section>
+  </main>
 </body>
 </html>
